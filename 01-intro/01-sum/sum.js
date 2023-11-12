@@ -2,7 +2,7 @@ function sum(a, b) {
 
     if (ifNumber(a) && ifNumber(b)) {
         return a + b;
-    } else throw new TypeError("Hello");
+    } else throw new TypeError('Hello');
 }
 
 function ifNumber(item) {
@@ -10,6 +10,7 @@ function ifNumber(item) {
         return true;
     } else return;
 }
+
 
 
 module.exports = sum;
